@@ -17,9 +17,11 @@ returns
 
 ```sh
 w: %i  h: %i
-``
+```
 
-Modify output printf, and recompile. Implementation is designed for modifcation and recompilation, as opposed to filtering output and remapping for purpose.
+Modify printf output and recompile. 
+
+Implementation is designed for modifcation and recompilation, as opposed to filtering output and remapping for purpose. High performance application target.
 
 Notes: 
 
