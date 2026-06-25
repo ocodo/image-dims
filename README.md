@@ -8,12 +8,19 @@ Reference implementation C programs to return image dimensions of:
 - bmp
 - gif
 
-usage:
+### usage:
+
 ```sh
 <bmp|gif|jpg|png|webp>dims <image.$1>
 ```
 
-returns
+### example:
+
+```sh
+pngdims input.png
+```
+
+### output:
 
 ```sh
 w: %i  h: %i
