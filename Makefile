@@ -1,7 +1,7 @@
 CC := gcc
 CFLAGS := -Wall -Wextra -O2
 
-FORMATS := png jpg gif bmp webp
+FORMATS := png jpg gif bmp webp avif
 BINS := $(addprefix build/,$(addsuffix dims,$(FORMATS)))
 
 all: $(BINS)
