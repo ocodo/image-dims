@@ -46,8 +46,6 @@ Notes:
 
 **Webp** uses three internal payload structures, so it's slightly less efficient than **png**, which should be considered, ideal.
 
-**Jpeg** uses a strategy of **SOL** blocks to contain header info.
+**Jpeg** uses **SOF** blocks to contain header info.
 
-File integrity (i.e. is this a **png** etc), is an upsteam concern.
-
-Use at your own risk, just because it's got a file extension, doesn't mean it's true.
+File integrity (i.e. is this a **png**? etc), upsteam concern.
